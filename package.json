@@ -1,0 +1,20 @@
+{
+  "name": "landing-page",
+  "version": "1.0.0",
+  "description": "Modern single-page landing website",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve . -l ${PORT:-3000}",
+    "dev": "npx serve . -l 3000"
+  },
+  "dependencies": {
+    "serve": "^14.2.1"
+  },
+  "keywords": [
+    "landing-page",
+    "website",
+    "static"
+  ],
+  "author": "",
+  "license": "MIT"
+}
